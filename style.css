@@ -156,3 +156,11 @@ footer{padding:28px 6vw;display:flex;justify-content:space-between;background:#0
   .letter{padding:90px 5vw}.letter-paper{padding:55px 28px}.letter-paper:before{inset:10px}.letter-body{font-size:22px}.letter-paper h2{font-size:50px}
 }
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+
+
+/* Preserve the full portrait for the "Simply stunning" photo */
+.memory-photo-10 img {
+    aspect-ratio: auto !important;
+    height: auto !important;
+    object-fit: contain !important;
+}
